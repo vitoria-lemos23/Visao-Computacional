@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 
-public class exer2a{
+public class exer2_14A {
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scan = new Scanner(System.in);
