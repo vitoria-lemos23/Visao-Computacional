@@ -37,7 +37,7 @@ public class exer2_14A {
 
     int n;
     public static void ler(int matriz[][]) throws FileNotFoundException {
-        Scanner scan = new Scanner(new File("C:\\Users\\vitor\\IdeaProjects\\Ain-manga\\src\\entrada.txt"));
+        Scanner scan = new Scanner(new File("src/entrada.txt"));
         for(int i = 0 ;i < 4; i++)
         {
             for(int j = 0 ; j < 4; j++)
