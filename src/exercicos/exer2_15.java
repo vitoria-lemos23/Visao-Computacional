@@ -20,11 +20,11 @@ public class exer2_15 {
 
 
     public static void ler(int matrix[][]) throws FileNotFoundException {
-        Scanner scan = new Scanner(new File("C:\\Users\\vitor\\IdeaProjects\\Visao-computacional\\src\\entrada.txt"));
+        Scanner scan = new Scanner(new File("src/entrada.txt"));
 
-        for(int i = 0; i < matrix.length; i++)
+        for(int i = 0; i < 4; i++)
         {
-            for (int j = 0; j < matrix[0].length; j++)
+            for (int j = 0; j < 4; j++)
             {
                 matrix[i][j] = scan.nextInt();
             }
@@ -34,14 +34,14 @@ public class exer2_15 {
 
     public static void imprimir(int matrix[][]) throws FileNotFoundException {
 
-        for(int i = 0; i < matrix.length; i++)
+        for(int i = 0; i < 4; i++)
         {
-            for (int j = 0; j < matrix[0].length; j++)
+            for (int j = 0; j < 4; j++)
             {
-                System.out.print( matrix[i][j]);
+                System.out.print(matrix[i][j]+" ");
             }
+            System.out.println();
         }
-        System.out.println();
     }
 
 
