@@ -8,6 +8,8 @@ public class exer2_15 {
         Scanner scan = new Scanner(new File("src/entrada.txt"));
         int linha = scan.nextInt();
         int coluna = scan.nextInt();
+
+        System.out.printf("%d %d\n", linha, coluna);
         int[][] matriz = new int[linha][coluna];
         int[][] copiaMatriz = new int[linha][coluna];
 
