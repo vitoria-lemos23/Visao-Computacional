@@ -18,6 +18,7 @@ public class exer3_18A {
         int [][] matrizCopia  = new int[linha][coluna];
         int [][] mask = new int[linha][coluna];
 
+
         //ler matriz
         ler(matriz,linha,coluna,scan);
         imprimir(matriz,linha,coluna);
